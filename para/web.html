@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mini Website</title>
+    <style>
+        /* Reset Styles */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Body Styling */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            text-align: center;
+        }
+
+        /* Navbar Styling */
+        .navbar {
+            background-color: #137e88;
+            padding: 15px 0;
+            text-align: center;
+            position: fixed;
+            width: 100%;
+            top: 0;
+            left: 0;
+        }
+
+        .navbar a {
+            color: rgb(255, 255, 255);
+            padding: 14px 20px;
+            text-decoration:aliceblue;
+            display: inline-block;
+            font-size: 18px;
+        }
+
+        .navbar a:hover {
+            background-color: #922424;
+            border-radius: 5px;
+        }
+
+        /* Page Container */
+        .container {
+            width: 80%;
+            margin: 100px auto 20px auto;
+            /* Navbar ke liye space */
+            padding: 20px;
+            background: rgb(246, 232, 168);
+            box-shadow: 0 0 10px rgba(171, 26, 26, 0.1);
+            border-radius: 10px;
+        }
+
+        img {
+            width: 50%;
+            max-width: 800px;
+            height: auto;
+            margin-top: 20px;
+            border-radius: 100px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <div class="navbar">
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Contact</a>
+    </div>
+
+    <!-- Content Section -->
+    <div class="container">
+        <h1>Welcome to Our Mini Website</h1>
+        <p>We provide valuable information and resources. Navigate through our pages to learn more.</p>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQOgY10LC4gle0--D2QCjLc4K4AzM0tvuLCgA&s" alt="Tech Image">
+        <h3 style="color:#9c0a0a">Goa-Beach</h3>
+    </div>
+
+</body>
+
+</html>
